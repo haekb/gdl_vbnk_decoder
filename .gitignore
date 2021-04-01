@@ -1,0 +1,10 @@
+# Non-project file
+__pycache__
+.vscode
+
+# The file itself
+*.VBK
+
+# Output
+out
+out_*
