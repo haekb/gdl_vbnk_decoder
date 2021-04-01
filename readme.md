@@ -1,6 +1,6 @@
 # VBnK Decoder
 
-Decodes Gauntlet Dark Legacy PS2 `*.VBK` files. 
+Decodes Gauntlet Dark Legacy PS2 `*.VBK` files, and extracts the audio files within. These audio files are compressed in the Sony PS2 VAG format. 
 
 ## Usage
 Place these python files in your extracted AUDIO folder and run "vbnk_decoder.py". You'll see a `out` folder along with folders in that representing the `vbk` file it was stored in. The names are found inside the `VAG` header, so they're as accurate as they can be. If for some reason a name wasn't found in the header, it will be named `unk` followed by a number.
